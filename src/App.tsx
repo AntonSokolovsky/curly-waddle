@@ -1,5 +1,12 @@
+import { ProductCard } from "./components/ProductCard";
+import { mockProduct } from "./content/mockContent";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <ProductCard {...mockProduct} />
+    </>
+  );
 }
 
 export default App;
