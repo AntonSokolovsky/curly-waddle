@@ -1,10 +1,12 @@
 import { ProductCard } from "./components/ProductCard";
-import { mockProduct } from "./content/mockContent";
+import { mockProducts } from "./content/mockContent";
 
 function App() {
   return (
     <>
-      <ProductCard {...mockProduct} />
+      {mockProducts.map((mockProduct, index) => (
+        <ProductCard key={index} {...mockProduct} />
+      ))}
     </>
   );
 }

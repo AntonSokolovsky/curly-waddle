@@ -2,6 +2,8 @@
 
 ## Демо
 
+https://radiant-youtiao-972692.netlify.app/
+
 ## Требования
 
 - Node.js >= 18.0.0
